@@ -48,7 +48,7 @@ example)
 
 ### Example1
 
-This is a example output of the image of the crossing in Perth CBD (I took this photo!).
+This is an example picturing a crossing in Perth CBD (I took this photo!).
 ![alt crossing](examples/crossing_out.jpg "Image example1 Crossing")
 
 The result (which things were detected?) is also displayed on the terminal:
@@ -57,10 +57,10 @@ The result (which things were detected?) is also displayed on the terminal:
 
 ### Example2
 
-This is another example output. This is a photo of a lunch I had at [my favorite cafe](https://www.facebook.com/florafaunaperth/) one day!
+Here's another example. This is a photo of a lunch I had at [my favorite cafe](https://www.facebook.com/florafaunaperth/) one day!
 ![alt lunch](examples/lunch_out.jpg "Image example2 Lunch Time")
 
-Sadly, some of the box labels are out of image. But we can make sure of the objects detected on the terminal as well.
+Sadly, some of the box labels are out of image. But we can know about the objects detected on the terminal as well.
 
 ![alt crossing_terminal](examples/crossing_out_terminal.jpg "Image example1 Crossing output on terminal")
 
