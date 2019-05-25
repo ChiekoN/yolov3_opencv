@@ -2,7 +2,7 @@
 
 ## Overview
 
-This program perform object detection on input images of your choice. I employed YOLO v3 model trained on COCO data set. The model is implemented using functions provided by OpenCV library.
+This program performs object detection on input images of your choice. I employed YOLO v3 model trained on COCO data set. The model is implemented using functions provided by OpenCV library.
 
 ## Source files
 
@@ -73,7 +73,7 @@ by Adrian Rosebrock"** (https://www.pyimagesearch.com/2018/11/12/yolo-object-det
 
  - I include a **jupyter notebook** (`oj.ipynb`) in this repository. I first tried this implementation in the notebook. It contains notes and explanations about the algorithms as well as about the points I had to care with respect to the YOLO v3 architecture.
 
- - First I tried implementing Non-max suppression using `cv2.dnn.NMSBoxes()` on the notebook, but the kernel died always when I ran the function. So I decided to implement Non-max supression by myself. The algorithm of NMS is taken from the idea that was explained in the [Coursera's Deep Learning Specialization "4.Convolutional Neural Networks"](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning) I had learned.
+ - First I tried implementing Non-max suppression using `cv2.dnn.NMSBoxes()` on the notebook, but the kernel died always when I ran the function. So I decided to implement Non-max suppression by myself. The algorithm of NMS is taken from the idea that was explained in the [Coursera's Deep Learning Specialization "4.Convolutional Neural Networks"](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning) I had learned.
 
  - To understand YOLO v3 architecture, the article **"What's new in YOLO v3?"**(https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b) was very helpful.
 
