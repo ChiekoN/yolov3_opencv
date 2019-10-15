@@ -6,8 +6,8 @@ This program performs object detection on input images of your choice. I employe
 
 ## Source files
 
- - `yolo_oj.py` : Python file. This is the main file for this program.
- - `yolo_oj_utils.py` : Python file. This contains subfunctions.
+ - `yolo_od.py` : Python file. This is the main file for this program.
+ - `yolo_od_utils.py` : Python file. This contains subfunctions.
 
 ## Input files
 
@@ -25,9 +25,9 @@ These files were obtained by following the instruction described in **Darknet**'
 
 ## Usage
 
-After you download those files above, simply execute the command below in the directory where 'yolo_ob.py' is located.
+After you download those files above, simply execute the command below in the directory where 'yolo_od.py' is located.
 ```
- > python yolo_ob.py <image files ...>
+ > python yolo_od.py <image files ...>
 ```
 
 Before you run this command, you need to prepare image files you want to try out. It's possible to specify multiple image files. If you do so, it performs object detection on each image file in a row.
@@ -43,7 +43,7 @@ The value of both parameters should be between 0.0 to 1.0. The default value is 
 
 example)
 ```
-  > python yolo_ob.py -c 0.4 -t 0.3 my_imagefile.jpg
+  > python yolo_od.py -c 0.4 -t 0.3 my_imagefile.jpg
 ```
 
 ### Example1

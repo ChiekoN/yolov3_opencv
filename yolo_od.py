@@ -5,7 +5,7 @@ import argparse
 import time
 import cv2
 import os
-from yolo_oj_utils import yolo_object_detection
+from yolo_od_utils import yolo_object_detection
 
 # Get options specified in the command line
 parser = argparse.ArgumentParser()
