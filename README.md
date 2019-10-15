@@ -71,7 +71,7 @@ Sadly, some of the box labels are out of image. But we can know about the object
  - For this YOLO v3 implementation with OpenCV, I mainly referred to the tutorial **"YOLO object detection with OpenCV
 by Adrian Rosebrock"** (https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/). This is a great tutorial.
 
- - I include a **jupyter notebook** (`oj.ipynb`) in this repository. I first tried this implementation in the notebook. It contains notes and explanations about the algorithms as well as about the points I had to care with respect to the YOLO v3 architecture.
+ - I include a **jupyter notebook** (`yolo_od.ipynb`) in this repository. I first tried this implementation in the notebook. It contains notes and explanations about the algorithms as well as about the points I had to care with respect to the YOLO v3 architecture.
 
  - First I tried implementing Non-max suppression using `cv2.dnn.NMSBoxes()` on the notebook, but the kernel died always when I ran the function. So I decided to implement Non-max suppression by myself. The algorithm of NMS is taken from the idea that was explained in the [Coursera's Deep Learning Specialization "4.Convolutional Neural Networks"](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning) I had learned.
 
