@@ -195,5 +195,6 @@ def yolo_object_detection(image_filename, net, confidence, threshold, labels, co
     # Draw boxes on the image
     image, text_list = draw_boxes(image, boxes_coord, nms_idx, scores, classes, labels, colors)
     print("{} : {}".format(image_filename, text_list), flush=True)
+    cv2.imwrite("{}_YOLO.jpg".format(image_filename.split('.')[0]), image)
     cv2.imshow("{}".format(image_filename, image), image)
     cv2.waitKey(0)
