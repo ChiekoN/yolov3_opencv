@@ -2,7 +2,7 @@
 
 ## Overview
 
-This program performs object detection on input images of your choice. I employed YOLO v3 model trained on COCO data set. The model is implemented using functions provided by OpenCV library.
+This program performs object detection on input images of your choice. I implemented the YOLO v3 model trained on COCO data set using functions provided by OpenCV library.
 
 ## Source files
 
@@ -32,7 +32,7 @@ After you download those files above, simply execute the command below in the di
 
 Before you run this command, you need to prepare image files you want to try out. It's possible to specify multiple image files. If you do so, it performs object detection on each image file in a row.
 
-When you run this program, the image with the bounding boxes is shown in the window, and you can see the result. To close the output image, you need to put the mouse pointer on the window and press any key. If you specify multiple image files, the output images are shown one by one.
+When you run this program, the image with bounding boxes is shown in the window, and you can see the result. To close the output image, you need to put the mouse pointer on the window and press any key. If you specify multiple image files, the output images are shown one by one.
 
 You can set the confidence threshold and IoU threshold for Non-max supression:
 
@@ -75,6 +75,6 @@ by Adrian Rosebrock"** (https://www.pyimagesearch.com/2018/11/12/yolo-object-det
 
  - First I tried using Non-max suppression using `cv2.dnn.NMSBoxes()`, but the kernel died always when I ran the function. So I decided to implement Non-max suppression by myself. The algorithm of NMS is taken from the idea that was explained in the [Coursera's Deep Learning Specialization "4.Convolutional Neural Networks"](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning) I had learned.
 
- - To understand YOLO v3 architecture, the article **"What's new in YOLO v3?"**(https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b) was very helpful.
+ - To understand the YOLO v3 architecture, the article **"What's new in YOLO v3?"**(https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b) was very helpful.
 
  - In this program, sometimes the object labels attached to the bounding boxes come out of the image. In this case, we can't know the labels and probabilities of the objects detected. I would like to address this problem in the future.
